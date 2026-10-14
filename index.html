@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grey Bulls | T20 Cricket Club</title>
+<meta name="description" content="Grey Bulls, a T20 cricket club. Meet the squad, see the silverware and the photo gallery.">
+<meta property="og:title" content="Grey Bulls | T20 Cricket Club">
+<meta property="og:description" content="Meet the squad, see the silverware and the photo gallery.">
+<meta property="og:image" content="/assets/img/team-trophy-aqua.jpg">
+<meta name="theme-color" content="#0e1830">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e1830'/%3E%3Ctext x='32' y='42' font-family='Arial Black,Arial' font-size='26' font-weight='900' text-anchor='middle' fill='%23e8b53d'%3EGB%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top"><span class="mark">GB</span><span>Grey Bulls</span></a>
+    <nav class="links">
+      <a href="#squad">Squad</a>
+      <a href="#honours">Honours</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" aria-label="Team photos">
+  <div class="hero-slides" id="heroSlides"></div>
+  <div class="hero-shade"></div>
+  <div class="wrap hero-copy">
+    <p class="eyebrow" id="heroEyebrow"></p>
+    <h1>Grey Bulls</h1>
+    <p class="hero-caption" id="heroCaption"></p>
+    <a class="btn" href="#squad">Meet the squad</a>
+  </div>
+  <div class="hero-dots" id="heroDots"></div>
+</section>
+
+<section class="stats" aria-label="Team at a glance">
+  <div class="wrap stats-grid" id="stats"></div>
+</section>
+
+<section class="about wrap">
+  <div class="about-text">
+    <h2>Who we are</h2>
+    <p id="intro"></p>
+  </div>
+  <div class="featured" id="featured"></div>
+</section>
+
+<section class="squad" id="squad">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>The squad</h2>
+      <div class="filters" id="filters" role="tablist"></div>
+    </div>
+    <div class="squad-grid" id="squadGrid"></div>
+  </div>
+</section>
+
+<section class="honours wrap" id="honours">
+  <h2>Honours</h2>
+  <div class="honours-grid" id="honoursGrid"></div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="wrap section-head">
+    <h2>Gallery</h2>
+    <div class="carousel-btns">
+      <button class="round" id="galPrev" aria-label="Previous photos">&#8592;</button>
+      <button class="round" id="galNext" aria-label="Next photos">&#8594;</button>
+    </div>
+  </div>
+  <div class="carousel" id="carousel"></div>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div class="brand"><span class="mark">GB</span><span>Grey Bulls</span></div>
+    <p>Squad data from CricHeroes. &copy; <span id="year">2026</span> Grey Bulls &middot; greybulls.com</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="round lb-close" id="lbClose" aria-label="Close">&#10005;</button>
+  <button class="round lb-prev" id="lbPrev" aria-label="Previous">&#8592;</button>
+  <img id="lbImg" alt="">
+  <button class="round lb-next" id="lbNext" aria-label="Next">&#8594;</button>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
